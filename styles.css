@@ -305,6 +305,20 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .columnaUno, .columnaDos {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .fotoAbel img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .filaBetween {
+        flex-wrap: wrap;
+    }
+
     .orderCD {
         flex-wrap: wrap;
     }
