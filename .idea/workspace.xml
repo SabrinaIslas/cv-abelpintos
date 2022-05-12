@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7fca756-8fc1-4672-8ca5-f80b868e2dad" name="Changes" comment="Avance desktop">
-      <change afterPath="$PROJECT_DIR$/.idea/cv-abelpintos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Abel-prensa-4-795x600.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Raleway-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/Raleway-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/abel-cv.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/001-ParaCantarHeNacido.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/002-TodosLosDiasUnPoco.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/003-CosasdelCorazon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/005-ReflejoReal.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/007-Reevolucion.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/011-abelpintos11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/012-lfff.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/CD_abel_tapa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/CD_eaemv_tapa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/abellallave.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/abelpintossentidos.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/abelpintosunico.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/albumes/tapa_SD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/gardel-musica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/gardel-oro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/gaviota-de-plata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursos/plandivino_logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_CVAbelPintos.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/recursos/TP_CVAbelPintos.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +61,17 @@
       <option name="presentableId" value="Default" />
       <updated>1651750059634</updated>
       <workItem from="1651750061660" duration="323000" />
-      <workItem from="1651771367653" duration="24496000" />
+      <workItem from="1651771367653" duration="25175000" />
+      <workItem from="1652353477108" duration="1717000" />
     </task>
+    <task id="LOCAL-00001" summary="Avance desktop">
+      <created>1651953737016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651953737016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Avance desktop" />

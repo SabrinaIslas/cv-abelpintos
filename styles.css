@@ -234,7 +234,7 @@ ul > li > a:hover {
 
 .cardCD {
     margin: 0 15px 30px 0;
-    width: calc(100% - 15px);
+    width: calc(20% - 15px);
     align-items: center;
     text-align: center;
     border: solid 1px #E5E5E5;
@@ -286,3 +286,30 @@ footer a:hover {
     color: #DE826A;
 }
 
+@media (max-width: 1550px) {
+    .alignNav {
+        display: none;
+    }
+
+    .orderCD {
+        flex-wrap: wrap;
+    }
+
+    .cardCD {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .flexRow {
+        flex-direction: column;
+    }
+
+    .orderCD {
+        flex-wrap: wrap;
+    }
+
+    .cardCD {
+        width: 90%;
+    }
+}
