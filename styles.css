@@ -105,13 +105,17 @@ to {background-color: #003B75;}
     margin-bottom: 80px !important;
 }
 
-.marginBottom30px {
-    margin-bottom: 30px;
-}
-
 .flexRow {
     display: flex;
     flex-direction: row;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
 }
 
 .flexEnd {
@@ -185,13 +189,17 @@ ul > li > a:hover {
 }
 
 .columnaUno {
-    width: calc(100% - 120px);
-    margin-left: 120px;
+    width: 30%;
+    border-right: solid 1px #E5E5E5;
+    padding: 2%;
+    /*width: calc(100% - 120px);*/
+    /*margin-left: 120px;*/
 }
 
 .columnaDos {
-    margin-left: 80px;
-    margin-right: 120px;
+    width: 70%;
+    padding: 0 5%;
+    /*margin-right: 120px;*/
 }
 
 .columnaCenter img {
@@ -205,6 +213,7 @@ ul > li > a:hover {
 
 .fotoAbel img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .orderRedes {
@@ -228,13 +237,17 @@ ul > li > a:hover {
     justify-content: space-between;
 }
 
-.orderCD .cardCD:last-child {
+.orderCD, .cardCD:last-child {
     margin-right: 0;
+}
+
+.last {
+    display: none;
 }
 
 .cardCD {
     margin: 0 15px 30px 0;
-    width: calc(20% - 15px);
+    width: calc(100% - 15px);
     align-items: center;
     text-align: center;
     border: solid 1px #E5E5E5;
@@ -257,20 +270,36 @@ ul > li > a:hover {
 
 .cardCD p {
     margin-bottom: 15px;
+    padding: 0 5px;
 }
 
-.ultimoCD {display: flex;
+.ultimoCD {
+    display: flex;
     flex-direction: row;
     border: solid 1px #E5E5E5;
     border-radius: 10px;
     box-shadow: 0 4px 6px #E5E5E5;
+    width: 100%;
 }
 
-.ultimoCD img {
-    width: 45%;
-    margin-right: 25px;
+.ultimoCDimg {
+    width: 50%;
+}
+
+.ultimoCDimg img {
     border-radius: 10px 0 0 10px;
-    box-shadow: 0 4px 6px #E5E5E5;
+    width: 100%;
+    height: 100%;
+}
+
+.textCenter {
+    width: 48%;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.textCenter p {
+    padding: 25px 0;
 }
 
 footer {
@@ -298,6 +327,29 @@ footer a:hover {
     .cardCD {
         width: 45%;
     }
+
+    .last {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .ultimoCD {
+        flex-direction: column;
+    }
+
+    .ultimoCDimg {
+        width: 100%;
+    }
+
+    .textCenter {
+        width: calc(100% - 2%);
+    }
+
+    .ultimoCDimg img {
+        border-radius: 10px 10px 0 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -309,6 +361,15 @@ footer a:hover {
         margin-right: 15px;
         margin-left: 15px;
         width: calc(100% - 30px);
+    }
+
+    .marginBottom {
+        margin-bottom: 40px;
+    }
+
+    .fotoAbel {
+        display: flex;
+        justify-content: center;
     }
 
     .fotoAbel img {
