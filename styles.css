@@ -306,8 +306,9 @@ footer a:hover {
     }
 
     .columnaUno, .columnaDos {
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: calc(100% - 30px);
     }
 
     .fotoAbel img {
